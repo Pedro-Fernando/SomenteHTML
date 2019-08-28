@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="author" content="Pedro Fernando">
+	<meta name="keywords" content="vender, rodapés">
+	<meta name="description" content="Venda de rodapés Online">
+
+	<title>Dados Cliente</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/compra.css">
+</head>
+<body>
+
+<header class="container-header">
+
+	<div class="header-container-navigation">
+		<nav class="navigation">
+			<ul class="navigation-list">
+				<a class="list-link" href="../index.html">
+					<li class="link-item">
+						Home
+					</li>
+				</a>
+			</ul>
+		</nav>
+	</div>
+
+	<figure class="header-container-logo">
+		<img class="image" src="../images/001.png" alt="logo">
+	</figure>
+
+
+
+</header>
+
+
+	<main class="container-main">
+		<section class="dados">
+
+			<form class="container-form" accept-charset="utf-8" autocomplete="on">
+
+				<div class="container-title top">
+					<h1 class="title">Pedido</h1>
+				</div>
+
+						<input class="formulario" type="number" placeholder="Quantidade"/>
+						<label for="cor">Cor do Rodapé</label>
+						<input class="formulario color" type="color" id="cor" />
+
+						<input class="formulario" list="tiporodape" name="rodape" placeholder="Tipo de Rodapé">
+							  <datalist id="tiporodape">
+							    <option value="Rodapé de Madeira">
+							    <option value="Rodateto">
+							    <option value="Rodapé de Plástico">
+							    <option value="Rodameio">
+							    <option value="Rodapé de Porcelanato">
+							  </datalist>
+
+
+				<div class="container-title">
+					<h1 class="title">Dados Pessoais</h1>
+				</div>
+
+							<input class="formulario" type="text" required placeholder="Nome"/> <br/>
+							<input class="formulario" type="text" required placeholder="Sobrenome"/> <br/>
+
+					<div class="container-sex">
+						<label for="masc" >Homem </label>
+						<input  type="radio" name="sexo" id="masc" value="homem"/>
+
+						<label for="femi" >Mulher </label>
+						<input type="radio" name="sexo" id="femi" value="mulher"/>
+
+						<label for="outro" >Outro </label>
+						<input  type="radio" name="sexo" id="outro" value="outro"/> <br/>
+					</div>
+
+
+
+
+							<input class="formulario" type="text" required placeholder="CPF" maxlength="11"/> <br/>
+							<input class="formulario" type="email" placeholder="Email"/><br/>
+
+
+				<div class="container-title">
+					<h1 class="title">Local de Entrega</h1>
+				</div>
+						<input class="formulario" type="text" required  placeholder="Endereço"/> <br/>
+						<input class="formulario" type="text" required placeholder="Complemento"/>  <br/>
+						<input class="formulario" type="text" required placeholder="Número"/> <br/>
+						<input class="formulario" type="text" required placeholder="Cidade"/> <br/>
+						<input class="formulario" type="text" required placeholder="Estado"/> <br/>
+						<input class="formulario" type="text" required placeholder="CEP" maxlength="8"/><br/>
+			<div class="btn">
+				<input class="btn-confirma" type="submit" value="Confirmar">	
+				<input class="btn-cancela" type="reset" value="cancelar"> <br/>
+			</div>
+				
+
+
+			</form>
+
+		</section>
+
+		<section class="container-img">
+			<figure>
+				<img src="../images/rod-003.jpg" width="300" height="250">
+				<figcaption>Modelo 03</figcaption>
+			</figure>
+		</section>	
+	</main>
+
+	<footer class="container-footer">
+		
+	</footer>
+</body>
+</html>

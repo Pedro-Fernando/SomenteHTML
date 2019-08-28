@@ -1,0 +1,250 @@
+/*			GERAL
+**************************************/
+html, body{
+	margin: 0;
+	height: 100%;
+	font-family: Helvetica;
+	background-color: #161616;
+	color: white;
+
+}
+.ancora{
+	position: absolute;
+	top: -30px;
+}
+
+@font-face {
+  font-family:FontNav;
+  src: url("../fonts/EB_Garamond/EBGaramond-Bold.ttf");
+}
+
+
+
+
+@font-face {
+  font-family:FontTitle;
+  src: url("../fonts/Shrikhand/Shrikhand-Regular.ttf");
+}
+/*			HEADER
+**************************************/
+.header-container-image{
+	position: relative;
+	background-color: black;
+	margin: 0;
+}
+
+
+.header-container-anao{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+
+}
+.header-container-anao > .anao{
+	max-width:  105%;
+}
+.header-container-image > .image{
+	width: 100%;
+	opacity: 0.5;
+}
+.header-container-navigation{
+	margin-left: 12px; 
+}
+.navigation-list{
+	 font-family:FontNav;
+	padding: 0;
+	margin: 0px 0px 0px 50px; 
+}
+
+.navigation{
+	z-index: 100;
+	background-color: black;
+	position: fixed;	
+	top: 0;
+	right: 0;
+	left: 0;	
+	border-bottom:5px solid #03A010;
+
+}
+
+.list-link{
+	text-decoration: none;
+	margin: 0px 15px 0px 5px;
+}
+.link-item{
+	font-family: FontNav;
+	bottom: 0;	
+	padding: 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: inline-block;
+	color: white;	
+}
+.link-item:hover{
+	background-color: #03A010;
+	color: #000;
+}
+.header-container-logo {
+	margin: 0px;
+}
+.header-container-logo > .image{
+	z-index: 100;
+	top: 3px;
+	left: 11px;
+	width: 30px;
+	height: 40px;
+	position: fixed;
+	float: left;
+
+
+}
+/*			SECTION
+**************************************/
+
+article{
+	text-align: justify;
+}
+
+
+/*		SEC. VENDA
+----------------------------*/
+.venda-title{
+	
+	background-color: black;
+	text-align: center;
+	margin-left: -30px
+
+
+
+}
+.venda-title > .enfase{
+	color:  #03A010;
+}
+
+
+.section-venda{
+	position: relative;
+	background-image: url(../images/fundo-venda.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;	
+	padding: 10px;
+}
+
+.venda-item{	
+	margin: 15px;
+    border: 1px solid #ccc;   
+    width: 180px;
+    background-color: #021400;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    position: relative;
+    display: inline-block;
+    border-bottom: 5px solid  #021400;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.item-image{
+	margin: 0;
+	
+}
+.item-image .image{
+	width: 100%;
+    height: auto;
+}
+
+.venda-item:hover{
+	border-bottom: 5px solid #03A010;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px; 
+}
+.description {
+	border-top-left-radius: 10px ;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius: 10px;
+	color: black;
+	background-color: white;
+	
+}
+.description > .text{
+	text-align: center;
+
+}
+
+/*		SEC.TIPOS
+-------------------------*/
+.section-tipos{
+	position: relative;
+	padding: 10px;
+	width: 100%;
+	background-color: #E1F2EC;
+
+}
+.information-txt{
+
+	text-indent: 20px;
+	color: black;
+	padding: 0px 100px 0px 30px;
+
+}
+.information-title{
+
+	padding: 12px;
+	text-align: center;
+	background-color: black;
+	width: 100%; 
+	margin-left: -15px; 
+
+}
+.information-title > em{
+	color: #03A010;
+}
+.information-subtitle{
+	text-align: left;
+	color: black;
+	padding: 0px 100px 0px 30px;
+}
+
+.section-escolha{
+	position: relative;
+	padding: 10px;
+	width: 100%;
+	background-color: #E1F2EC;
+}
+
+/*			DICAS
+----------------------------------*/
+.section-dicas{
+	position: relative;
+	padding: 10px;
+	width: 100%;
+	background-color: #E1F2EC;
+}
+
+
+.dicas-video{
+	text-align: center;	
+	border:5px solid #003A0C;
+}
+
+/*			FOOTER
+**************************************/
+.container-footer{
+	border-top: 5px solid #03A010;
+}
+
+.footer-colum{
+	padding: 10px;
+	float: left;
+	width: calc(100% / 3);
+	height: 15px;
+
+}
+
+.borda a{
+	text-decoration: none;
+	color: white;
+}
+

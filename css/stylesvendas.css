@@ -1,0 +1,154 @@
+/*			GERAL
+**********************************/
+html, body{
+	margin: 0;
+	background-color: #E1F2EC;
+
+}
+
+/*			HEADER
+**********************************/
+
+
+.navigation-list{
+
+	padding: 0;
+	margin: 0px 0px 0px 50px; 
+}
+
+.navigation{
+	z-index: 100;
+	background-color: black;
+	position: fixed;	
+	top: 0;
+	right: 0;
+	left: 0;	
+	border-bottom:5px solid #03A010;
+
+}
+
+.list-link{
+	text-decoration: none;
+	margin: 0px 15px 0px 5px;
+}
+.link-item{
+	bottom: 0;	
+	padding: 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: inline-block;
+	color: white;	
+}
+.link-item:hover{
+	background-color: #03A010;
+}
+
+.header-container-logo {
+	margin: 0px;
+}
+.header-container-logo > .image{
+	z-index: 100;
+	top: 3px;
+	left: 11px;
+	width: 30px;
+	height: 40px;
+	position: fixed;
+	float: left;
+
+
+}
+
+/*			SECTION
+**********************************/
+.container-section{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border:2px solid black;
+	margin: 0;
+	position: relative;
+	background-color: white;
+	top: 80px;
+	height: 280px;
+	max-width: 60%;	  
+	left: 20%;
+
+}
+.column{
+	display: inline-block;
+	width: 50%;
+	min-width: 50%;
+}
+.column.description{	
+	background-color: #C4D1B0;
+	height: 280px;
+
+}
+.pay{
+
+	position: relative;
+    bottom: 42px;
+    left: 160px;
+}
+.description-one h1{
+	
+	border-bottom: 5px solid #03A010;
+	text-align: center;
+	background-color: black;
+	margin: 0;	
+	color: white;
+
+}
+.description-one .cod{
+	float: right;
+	padding: 5px;
+	background-color: #009474;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.column.image{
+	display: inline-block;
+	float: right;	
+}
+.container-table{
+	border:2px solid black;
+	margin: 0;
+	position: relative;
+	background-color: white;
+	top: 89px;	
+	max-width: 60%;
+	left: 20%;
+}
+
+
+.container-title>h1{
+	margin: 0;	
+	text-align: center;
+	background-color: #161616;
+	padding: 15px;
+	color: white;
+	border-bottom:5px solid #03A010;
+
+}
+
+.text{
+	margin-left: 5px;
+}
+/*			TABLE
+**********************************/
+table{
+	border-collapse: collapse;
+    width: 100%;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+/*			FOOTER
+**********************************/
+
+
+
